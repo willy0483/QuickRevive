@@ -20,7 +20,7 @@ BINARY = $(EXEDIR)/test
 
 VPATH = $(dir $(CFILES))
 
-.PHONY: all clean debug
+.PHONY: all run clean debug
 
 all: $(STATIC)
 
